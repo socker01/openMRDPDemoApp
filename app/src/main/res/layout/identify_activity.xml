@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="@+id/identify_login_et"
         app:layout_constraintTop_toBottomOf="@+id/identify_login_et"
         tools:text="Password" />

@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         initializeIdentifyButton();
     }
 
-    private void initializeLocateButton(){
+    private void initializeLocateButton() {
         final Button locateButton = findViewById(R.id.btn_locate);
         final Intent intent = new Intent(this, LocateActivity.class);
         locateButton.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void initializeIdentifyButton(){
+    private void initializeIdentifyButton() {
         final Button locateButton = findViewById(R.id.btn_identify);
         final Intent intent = new Intent(this, IdentifyActivity.class);
         locateButton.setOnClickListener(new View.OnClickListener() {
